@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    "db": "Server=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=G:\\#C Projects\\myDbApp\\ConsoleApp1\\AppData\\db.mdf;Trusted_Connection=Yes",
+    "Localdb": "Server=\\(LocalDB)\\MSSQLLocalDB;Database=mydb;Trusted_Connection=Yes",
+    "StandloneSQLServer": "Server=.\\sqlexpress;Database=mydb;Trusted_Connection=Yes"
+  }
+}
