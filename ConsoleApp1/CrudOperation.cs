@@ -32,6 +32,9 @@ namespace myDbApp
             dataSet = new DataSet();
             sqlDataAdapter.Fill(dataSet, "Products");
             dataTable = dataSet.Tables["Products"];
+            DataColumn[] pk = new DataColumn[1];
+            pk[0] = dataTable.Columns["ProductID"];
+            dataTable.PrimaryKey = pk;
         }
 
         internal void GetAllProducts()
